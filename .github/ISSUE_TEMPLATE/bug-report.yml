@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a bug (for Quarto Lightbox issues, use quarto-dev/quarto-cli)
+title: "[Bug]: "
+labels:
+  - redirected
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        ⚠️ **This extension is now maintained in `quarto-dev/quarto-cli`.**  
+        Please open your issue there instead:
+
+        👉 https://github.com/quarto-dev/quarto-cli/issues/new/choose
+
+        You can close this draft and reopen in the correct repository.
+  - type: checkboxes
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I understand I should open this issue in quarto-dev/quarto-cli
+          required: true
+  - type: textarea
+    attributes:
+      label: Link to newly opened issue in quarto-dev/quarto-cli
+      description: Paste the URL after opening it in the correct repo.
