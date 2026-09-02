@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Quarto CLI issue tracker
+    url: https://github.com/quarto-dev/quarto-cli/issues/new/choose
+    about: Please open Lightbox issues in quarto-dev/quarto-cli.
